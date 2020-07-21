@@ -1,8 +1,7 @@
 import { Router } from 'express';
-import { getCustomRepository } from 'typeorm'
+import { getCustomRepository } from 'typeorm';
 import TransactionsRepository from '../repositories/TransactionsRepository';
 import CreateTransactionService from '../services/CreateTransactionService';
-import { getCustomRepository } from 'typeorm';
 // import DeleteTransactionService from '../services/DeleteTransactionService';
 // import ImportTransactionsService from '../services/ImportTransactionsService';
 
